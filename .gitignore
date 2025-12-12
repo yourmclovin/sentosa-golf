@@ -1,0 +1,19 @@
+# Xcode
+.DS_Store
+*/.DS_Store
+
+# Build
+DerivedData/
+build/
+*.xcuserstate
+
+# User settings
+*.xcuserdatad/
+*.xccheckout
+
+# SwiftPM
+.build/
+Package.resolved
+
+# Logs
+*.log
