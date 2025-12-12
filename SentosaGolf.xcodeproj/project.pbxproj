@@ -9,19 +9,37 @@
 /* Begin PBXBuildFile section */
 		A1B2C3D4E5F6010203040506 /* SentosaGolfApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6010203040507 /* SentosaGolfApp.swift */; };
 		A1B2C3D4E5F6010203040508 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6010203040509 /* ContentView.swift */; };
+		A1B2C3D4E5F6010203040520 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6010203040521 /* AppDelegate.swift */; };
+		A1B2C3D4E5F6010203040522 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6010203040523 /* HomeView.swift */; };
+		A1B2C3D4E5F6010203040524 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6010203040525 /* HomeViewModel.swift */; };
+		A1B2C3D4E5F6010203040526 /* HomeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6010203040527 /* HomeCard.swift */; };
+		A1B2C3D4E5F6010203040528 /* HomeDemoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6010203040529 /* HomeDemoData.swift */; };
+
 		A1B2C3D4E5F6010203040604 /* SentosaGolfWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6010203040601 /* SentosaGolfWatchApp.swift */; };
 		A1B2C3D4E5F6010203040605 /* WatchContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6010203040602 /* WatchContentView.swift */; };
+		A1B2C3D4E5F6010203040620 /* WatchHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6010203040621 /* WatchHomeView.swift */; };
+		A1B2C3D4E5F6010203040622 /* HomeCard.swift in Sources (watch) */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6010203040527 /* HomeCard.swift */; };
+		A1B2C3D4E5F6010203040623 /* HomeDemoData.swift in Sources (watch) */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6010203040529 /* HomeDemoData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A1B2C3D4E5F601020304050A /* SentosaGolf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = SentosaGolf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1B2C3D4E5F6010203040606 /* SentosaGolfWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = SentosaGolfWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+
 		A1B2C3D4E5F6010203040507 /* SentosaGolfApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentosaGolfApp.swift; sourceTree = "<group>"; };
 		A1B2C3D4E5F6010203040509 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F6010203040521 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F6010203040523 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F6010203040525 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		A1B2C3D4E5F601020304050B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+
 		A1B2C3D4E5F6010203040601 /* SentosaGolfWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentosaGolfWatchApp.swift; sourceTree = "<group>"; };
 		A1B2C3D4E5F6010203040602 /* WatchContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchContentView.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F6010203040621 /* WatchHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchHomeView.swift; sourceTree = "<group>"; };
 		A1B2C3D4E5F6010203040603 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+
+		A1B2C3D4E5F6010203040527 /* HomeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCard.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F6010203040529 /* HomeDemoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDemoData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,30 +65,57 @@
 			children = (
 				A1B2C3D4E5F601020304050E /* SentosaGolf */,
 				A1B2C3D4E5F6010203040607 /* SentosaGolfWatch */,
+				A1B2C3D4E5F6010203040530 /* Shared */,
 				A1B2C3D4E5F601020304050F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
+
 		A1B2C3D4E5F601020304050E /* SentosaGolf */ = {
 			isa = PBXGroup;
 			children = (
 				A1B2C3D4E5F6010203040507 /* SentosaGolfApp.swift */,
+				A1B2C3D4E5F6010203040521 /* AppDelegate.swift */,
 				A1B2C3D4E5F6010203040509 /* ContentView.swift */,
+				A1B2C3D4E5F6010203040531 /* Home */,
 				A1B2C3D4E5F601020304050B /* Info.plist */,
 			);
 			path = SentosaGolf;
 			sourceTree = "<group>";
 		};
+
+		A1B2C3D4E5F6010203040531 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A1B2C3D4E5F6010203040523 /* HomeView.swift */,
+				A1B2C3D4E5F6010203040525 /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+
 		A1B2C3D4E5F6010203040607 /* SentosaGolfWatch */ = {
 			isa = PBXGroup;
 			children = (
 				A1B2C3D4E5F6010203040601 /* SentosaGolfWatchApp.swift */,
 				A1B2C3D4E5F6010203040602 /* WatchContentView.swift */,
+				A1B2C3D4E5F6010203040621 /* WatchHomeView.swift */,
 				A1B2C3D4E5F6010203040603 /* Info.plist */,
 			);
 			path = SentosaGolfWatch;
 			sourceTree = "<group>";
 		};
+
+		A1B2C3D4E5F6010203040530 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				A1B2C3D4E5F6010203040527 /* HomeCard.swift */,
+				A1B2C3D4E5F6010203040529 /* HomeDemoData.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+
 		A1B2C3D4E5F601020304050F /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -169,16 +214,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1B2C3D4E5F6010203040506 /* SentosaGolfApp.swift in Sources */,
+				A1B2C3D4E5F6010203040520 /* AppDelegate.swift in Sources */,
 				A1B2C3D4E5F6010203040508 /* ContentView.swift in Sources */,
+				A1B2C3D4E5F6010203040522 /* HomeView.swift in Sources */,
+				A1B2C3D4E5F6010203040524 /* HomeViewModel.swift in Sources */,
+				A1B2C3D4E5F6010203040526 /* HomeCard.swift in Sources */,
+				A1B2C3D4E5F6010203040528 /* HomeDemoData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+
 		A1B2C3D4E5F6010203040608 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A1B2C3D4E5F6010203040604 /* SentosaGolfWatchApp.swift in Sources */,
 				A1B2C3D4E5F6010203040605 /* WatchContentView.swift in Sources */,
+				A1B2C3D4E5F6010203040620 /* WatchHomeView.swift in Sources */,
+				A1B2C3D4E5F6010203040622 /* HomeCard.swift in Sources (watch) */,
+				A1B2C3D4E5F6010203040623 /* HomeDemoData.swift in Sources (watch) */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +353,7 @@
 			};
 			name = Release;
 		};
+
 		A1B2C3D4E5F6010203040518 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
