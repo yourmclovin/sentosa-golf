@@ -9,17 +9,30 @@
 /* Begin PBXBuildFile section */
 		A1B2C3D4E5F6010203040506 /* SentosaGolfApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6010203040507 /* SentosaGolfApp.swift */; };
 		A1B2C3D4E5F6010203040508 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6010203040509 /* ContentView.swift */; };
+		A1B2C3D4E5F6010203040604 /* SentosaGolfWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6010203040601 /* SentosaGolfWatchApp.swift */; };
+		A1B2C3D4E5F6010203040605 /* WatchContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B2C3D4E5F6010203040602 /* WatchContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A1B2C3D4E5F601020304050A /* SentosaGolf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = SentosaGolf.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1B2C3D4E5F6010203040606 /* SentosaGolfWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = SentosaGolfWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1B2C3D4E5F6010203040507 /* SentosaGolfApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentosaGolfApp.swift; sourceTree = "<group>"; };
 		A1B2C3D4E5F6010203040509 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A1B2C3D4E5F601020304050B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1B2C3D4E5F6010203040601 /* SentosaGolfWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentosaGolfWatchApp.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F6010203040602 /* WatchContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchContentView.swift; sourceTree = "<group>"; };
+		A1B2C3D4E5F6010203040603 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		A1B2C3D4E5F601020304050C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1B2C3D4E5F601020304060A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,6 +46,7 @@
 			isa = PBXGroup;
 			children = (
 				A1B2C3D4E5F601020304050E /* SentosaGolf */,
+				A1B2C3D4E5F6010203040607 /* SentosaGolfWatch */,
 				A1B2C3D4E5F601020304050F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,10 +61,21 @@
 			path = SentosaGolf;
 			sourceTree = "<group>";
 		};
+		A1B2C3D4E5F6010203040607 /* SentosaGolfWatch */ = {
+			isa = PBXGroup;
+			children = (
+				A1B2C3D4E5F6010203040601 /* SentosaGolfWatchApp.swift */,
+				A1B2C3D4E5F6010203040602 /* WatchContentView.swift */,
+				A1B2C3D4E5F6010203040603 /* Info.plist */,
+			);
+			path = SentosaGolfWatch;
+			sourceTree = "<group>";
+		};
 		A1B2C3D4E5F601020304050F /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				A1B2C3D4E5F601020304050A /* SentosaGolf.app */,
+				A1B2C3D4E5F6010203040606 /* SentosaGolfWatch.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,6 +98,23 @@
 			name = SentosaGolf;
 			productName = "Sentosa Golf";
 			productReference = A1B2C3D4E5F601020304050A /* SentosaGolf.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1B2C3D4E5F601020304060B /* SentosaGolfWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1B2C3D4E5F601020304060C /* Build configuration list for PBXNativeTarget "SentosaGolfWatch" */;
+			buildPhases = (
+				A1B2C3D4E5F6010203040608 /* Sources */,
+				A1B2C3D4E5F6010203040609 /* Resources */,
+				A1B2C3D4E5F601020304060A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SentosaGolfWatch;
+			productName = "Sentosa Golf";
+			productReference = A1B2C3D4E5F6010203040606 /* SentosaGolfWatch.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,12 +141,20 @@
 			projectRoot = "";
 			targets = (
 				A1B2C3D4E5F6010203040510 /* SentosaGolf */,
+				A1B2C3D4E5F601020304060B /* SentosaGolfWatch */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		A1B2C3D4E5F6010203040513 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1B2C3D4E5F6010203040609 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -120,6 +170,15 @@
 			files = (
 				A1B2C3D4E5F6010203040506 /* SentosaGolfApp.swift in Sources */,
 				A1B2C3D4E5F6010203040508 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1B2C3D4E5F6010203040608 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B2C3D4E5F6010203040604 /* SentosaGolfWatchApp.swift in Sources */,
+				A1B2C3D4E5F6010203040605 /* WatchContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +342,52 @@
 			};
 			name = Release;
 		};
+
+		A1B2C3D4E5F601020304060D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SentosaGolfWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourmclovin.SentosaGolf.watch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SUPPORTED_PLATFORMS = watchos;
+				SWIFT_VERSION = 5.0;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		A1B2C3D4E5F601020304060E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SentosaGolfWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourmclovin.SentosaGolf.watch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SUPPORTED_PLATFORMS = watchos;
+				SWIFT_VERSION = 5.0;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -300,6 +405,15 @@
 			buildConfigurations = (
 				A1B2C3D4E5F6010203040518 /* Debug */,
 				A1B2C3D4E5F6010203040519 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A1B2C3D4E5F601020304060C /* Build configuration list for PBXNativeTarget "SentosaGolfWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1B2C3D4E5F601020304060D /* Debug */,
+				A1B2C3D4E5F601020304060E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;

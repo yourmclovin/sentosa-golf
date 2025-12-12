@@ -1,6 +1,8 @@
 # Sentosa Golf
 
-A fresh **SwiftUI** iOS app scaffold (iOS 17+).
+A fresh **SwiftUI** scaffold for:
+- **iOS (iPhone-only, portrait-only)**
+- **watchOS (standalone)**
 
 ## Open & Run
 1. Clone:
@@ -12,8 +14,11 @@ A fresh **SwiftUI** iOS app scaffold (iOS 17+).
    ```bash
    open SentosaGolf.xcodeproj
    ```
-3. Select an iPhone Simulator and press **Run**.
+3. Pick a scheme:
+   - **SentosaGolf** (iPhone)
+   - **SentosaGolfWatch** (Apple Watch)
 
 ## Notes
-- Bundle ID: `com.yourmclovin.SentosaGolf`
-- If you want to run on a device, set your **Team** in Signing & Capabilities.
+- iOS Bundle ID: `com.yourmclovin.SentosaGolf`
+- watchOS Bundle ID: `com.yourmclovin.SentosaGolf.watch`
+- If you want to run on devices, set your **Team** in Signing & Capabilities.
